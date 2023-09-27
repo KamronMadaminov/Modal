@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 500px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+}
+
+.box {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.active {
+    display: block;
+}
+
+.bodyActive {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.open__btn {
+    width: 150px;
+    height: 50px;
+    margin-top: 50vh;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    background-color: #009;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.close__btn {
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
+    padding: 7px;
+    border: none;
+    background-color: #009;
+    color: #fff;
+    border-radius: 20px;
+}
